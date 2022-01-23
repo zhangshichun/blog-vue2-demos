@@ -8,6 +8,7 @@
 </template>
 <script>
 import Popper from 'element-ui/src/utils/vue-popper';
+Popper.render = (h) => h(null)
 
 export default {
   components: {
